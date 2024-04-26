@@ -126,51 +126,39 @@ document.querySelector('#btn2').addEventListener('click', (evento) => {
                                                 
                                                 })
                                                 .catch(err => console.log(err))
-                                                .finally(console.log('12a Petición resuelta'))
                 
                                             })
                                             .catch(err => console.log(err))
-                                            .finally(console.log('11a Petición resuelta'))
             
                                         })
                                         .catch(err => console.log(err))
-                                        .finally(console.log('10a Petición resuelta'))
         
                                     })
                                     .catch(err => console.log(err))
-                                    .finally(console.log('9a Petición resuelta'))
     
                                 })
                                 .catch(err => console.log(err))
-                                .finally(console.log('8a Petición resuelta'))
     
                             })
                             .catch(err => console.log(err))
-                            .finally(console.log('7a Petición resuelta'))
                 
                         })
                         .catch(err => console.log(err))
-                        .finally(console.log('6a Petición resuelta'))
             
                     })
                     .catch(err => console.log(err))
-                    .finally(console.log('5a Petición resuelta'))
         
                 })
                 .catch(err => console.log(err))
-                .finally(console.log('4a Petición resuelta'))
     
             })
             .catch(err => console.log(err))
-            .finally(console.log('3a Petición resuelta'))
     
         })
         .catch(err => console.log(err))
-        .finally(console.log('2a Petición resuelta'))
     
     })
     .catch(err => console.log(err))
-    .finally(console.log('1a Petición resuelta'))
 })
 
 // Exercici 2.3 Promise.All
